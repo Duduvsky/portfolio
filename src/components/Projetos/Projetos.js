@@ -70,8 +70,10 @@ const Projetos = () => {
               <source src={video.src} type="video/mp4" />
               Seu navegador não suporta o elemento de vídeo.
             </video>
-            <h3 style={textStyle}>{video.title}</h3>
-            <p style={textStyle}>{video.description}</p>
+            <div className='card-style'>
+              <h3 style={textStyle}>{video.title}</h3>
+              <p style={textStyle}>{video.description}</p>
+            </div>
           </div>
         ))}
       </Slider>
