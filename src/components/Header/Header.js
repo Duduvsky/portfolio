@@ -29,8 +29,8 @@ const Header = () => {
             </div>
         </div>
         <div className='buttons'>
-            <a href="#projetos" className="btn">Projects</a>
-            <a href="#contact" className="btn">Contact</a>
+            <a href="#projetos" className="btn">Projects here !</a>
+            <a href="#contact" className="btn">Contact here !</a>
         </div>
     </header>
   );
