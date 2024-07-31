@@ -2,6 +2,9 @@ import React from 'react';
 import './styles.css'
 
 const Header = () => {
+
+    const perfil = `${process.env.PUBLIC_URL}/assets/Dudu.jpeg`
+
   return (
     <header style={headerStyle} id='home' className='headerHome'>
         <div className='sobre-mim'>
@@ -22,7 +25,7 @@ const Header = () => {
                 <h1> Bem-vindo !</h1>
                 <p> Me chamo Matheus Eduardo Pires de Azevedo e aqui você conhecerá um pouco sobre mim e meus projetos </p>
             </div>
-            <img src="/assets/Dudu.jpeg" alt="perfil" style={imgStyle} />
+            <img src={perfil} alt="perfil" style={imgStyle} />
         </div>
     </header>
   );
