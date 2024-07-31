@@ -1,0 +1,11 @@
+.projetosbg {
+    background-image: url('/public/assets/PapelParedePixelArt2.jpg');
+    background-size: cover; /* Ajusta a imagem para cobrir toda a área */
+    background-position: center; /* Centraliza a imagem */
+    background-repeat: no-repeat; /* Não repete a imagem */
+    background-attachment: fixed; /* Fixa a imagem no fundo */
+}
+
+.titulo {
+    color: white;
+}

@@ -1,0 +1,60 @@
+.footer {
+    /* background-color: #282c34; */
+    color: white;
+    padding: 2rem;
+    text-align: center;
+    background-image: url('/public/assets/PapelParedePixelArt3.jpg');
+    background-size: cover; /* Ajusta a imagem para cobrir toda a área */
+    background-position: center; /* Centraliza a imagem */
+    background-repeat: no-repeat; /* Não repete a imagem */
+    background-attachment: fixed; /* Fixa a imagem no fundo */
+  }
+  
+  .footer-content {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .footer h2 {
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
+  }
+  
+  .contact-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .contact-item {
+    margin: 0.5rem 0;
+  }
+  
+  .contact-label {
+    font-weight: bold;
+  }
+  
+  .contact-link, .contact-info {
+    color: white;
+    text-decoration: none;
+  }
+  
+  .contact-link:hover, .contact-info:hover {
+    text-decoration: underline;
+  }
+  
+  .social-media {
+    margin-top: 1rem;
+  }
+  
+  .social-link {
+    color: white;
+    margin: 0 0.5rem;
+    font-size: 1.5rem;
+    text-decoration: none;
+  }
+  
+  .social-link:hover {
+    color: #61dafb; /* Cor de destaque para redes sociais */
+  }
+  

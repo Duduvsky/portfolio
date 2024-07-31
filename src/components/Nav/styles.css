@@ -1,0 +1,74 @@
+/* Estilos gerais para todos os tamanhos de tela */
+.nav {
+    background-color: rgba(40, 44, 52, 0.8);
+    padding: 1rem;
+    width: 100%;
+    top: 0;
+  }
+  
+  .nav-fixed {
+    position: fixed;
+    z-index: 1000; /* Mantém o menu acima de outros elementos */
+  }
+  
+  .nav-list {
+    list-style: none;
+    display: flex;
+    gap: 2rem;
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+  }
+  
+  .nav-item {
+    margin: 0;
+  }
+  
+  .nav-link {
+    color: white;
+    text-decoration: none;
+    font-size: 1.2rem;
+  }
+  
+  .hamburger-button {
+    background: none;
+    border: none;
+    color: white;
+    font-size: 1.5rem;
+    cursor: pointer;
+  }
+  
+  .icon {
+    font-size: 1.5rem;
+  }
+  
+  @media (max-width: 768px) {
+    .menu {
+      display: none;
+    }
+  
+    .nav-list {
+      flex-direction: column;
+      position: absolute;
+      top: 100%;
+      left: 0;
+      right: 0;
+      background-color: rgba(40, 44, 52, 0.8);
+      padding: 1rem 0;
+    }
+
+    .nav-item {
+      margin-left: 20px;
+    }
+  }
+  
+  @media (min-width: 769px) {
+    .dropdown {
+      display: none;
+    }
+  
+    .nav-list {
+      display: flex !important;
+    }
+  }
+  
