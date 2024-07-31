@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/seu-repositorio/static/css/main.f487df30.css",
+    "main.js": "/seu-repositorio/static/js/main.fe2de4e1.js",
+    "static/media/PapelParedePixelArt2.jpg": "/seu-repositorio/static/media/PapelParedePixelArt2.1d7e20f6137198102713.jpg",
+    "static/media/PapelParedePixelArt3.jpg": "/seu-repositorio/static/media/PapelParedePixelArt3.3f8fa8b676e6ca22f2cd.jpg",
+    "static/media/PapelParedePixelArt.jpg": "/seu-repositorio/static/media/PapelParedePixelArt.c748de86704d5ae3d366.jpg",
+    "static/media/slick.svg": "/seu-repositorio/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/seu-repositorio/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/seu-repositorio/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/slick.woff": "/seu-repositorio/static/media/slick.295183786cd8a1389865.woff",
+    "index.html": "/seu-repositorio/index.html",
+    "main.f487df30.css.map": "/seu-repositorio/static/css/main.f487df30.css.map",
+    "main.fe2de4e1.js.map": "/seu-repositorio/static/js/main.fe2de4e1.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f487df30.css",
+    "static/js/main.fe2de4e1.js"
+  ]
+}
