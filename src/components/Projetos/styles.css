@@ -1,9 +1,27 @@
 .projetosbg {
     background-image: url('/public/assets/PapelParedePixelArt4.jpeg');
-    background-size: cover; /* Ajusta a imagem para cobrir toda a área */
-    background-position: center; /* Centraliza a imagem */
-    background-repeat: no-repeat; /* Não repete a imagem */
-    background-attachment: fixed; /* Fixa a imagem no fundo */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.slick-dots li button:before {
+    font-size: 12px !important;
+    opacity: 0.5 !important;
+}
+  
+.slick-dots li.slick-active button:before {
+    opacity: 1 !important;
+}
+
+.slick-prev:before, .slick-next:before {
+    font-size: 22px !important;
+    opacity: 0.90 !important;
+}
+
+.slick-prev.slick-disabled:before, .slick-next.slick-disabled:before {
+    opacity: 0.25 !important;
 }
 
 .titulo {
@@ -16,13 +34,13 @@
     color: white;
     font-size: 18px;
     padding: 1rem;
-    width: 90%; /* Ajuste a largura conforme necessário */
-    max-width: 600px; /* Define um limite máximo para a largura */
-    margin: 0 auto; /* Centraliza o card horizontalmente */
+    width: 90%;
+    max-width: 600px;
+    margin: 0 auto;
     display: flex;
     flex-direction: column;
-    align-items: center; /* Centraliza o conteúdo dentro do card */
-    text-align: center; /* Centraliza o texto */
-    box-sizing: border-box; /* Inclui o padding no cálculo de largura */
+    align-items: center;
+    text-align: center;
+    box-sizing: border-box;
   }
   

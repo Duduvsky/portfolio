@@ -1,12 +1,12 @@
 .gallery {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 1rem;
-  }
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem;
+}
   
-  .image-container {
-    flex: 1 1 auto;
-    max-width: 550px;
-  }
+.image-container {
+  flex: 1 1 auto;
+  max-width: 550px;
+}
   

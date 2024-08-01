@@ -1,56 +1,55 @@
 .habilidades {
-    padding: 2rem;
-    text-align: center;
-    background-color: #f4f4f4;
-  }
+  padding: 2rem;
+  text-align: center;
+  background-color: #f4f4f4;
+}
   
-  .habilidades h2 {
-    margin-bottom: 2rem;
-    font-size: 2rem;
-  }
+.habilidades h2 {
+  margin-bottom: 2rem;
+  font-size: 2rem;
+}
   
+.card-container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+  
+.card {
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 1rem;
+  width: 30%;
+  min-width: 250px;
+}
+  
+.card h3 {
+  margin-top: 0;
+}
+  
+.habilidades-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+}
+  
+.habilidades-list li {
+  color: #666;
+  margin: 0.5rem 0;
+}
+  
+@media (max-width: 768px) {
   .card-container {
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
-    gap: 1rem;
+    flex-direction: column;
+    align-items: center; 
   }
   
   .card {
-    background-color: white;
-    border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    padding: 1rem;
-    width: 30%;
-    min-width: 250px;
+    width: 90%;
+    max-width: 500px;
   }
-  
-  .card h3 {
-    margin-top: 0;
-  }
-  
-  .habilidades-list {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-    text-align: center;
-  }
-  
-  .habilidades-list li {
-    color: #666;
-    margin: 0.5rem 0;
-  }
-  
-  /* Media Query para dispositivos menores */
-  @media (max-width: 768px) {
-    .card-container {
-      flex-direction: column; /* Empilha os cards em uma coluna */
-      align-items: center; /* Centraliza os cards horizontalmente */
-    }
-  
-    .card {
-      width: 90%; /* Ajusta a largura dos cards para se ajustar à tela */
-      max-width: 500px; /* Define uma largura máxima para os cards */
-    }
-  }
+}
   

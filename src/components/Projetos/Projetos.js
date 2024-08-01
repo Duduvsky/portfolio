@@ -35,6 +35,7 @@ const Projetos = () => {
 
   const settings = {
     dots: true,
+    dotsClass: 'slick-dots',
     infinite: false,
     speed: 500,
     slidesToShow: 3,
@@ -65,7 +66,7 @@ const Projetos = () => {
       <h1 className='titulo'>My Projects</h1>
       <Slider {...settings}>
         {videoData.map((video, index) => (
-          <div key={index} style={cardStyle}>
+          <div key={index}>
             <video width="100%" height="300px" controls style={videoStyle}>
               <source src={video.src} type="video/mp4" />
               Seu navegador não suporta o elemento de vídeo.
@@ -84,16 +85,6 @@ const Projetos = () => {
 const sectionStyle = {
   padding: '2rem',
   textAlign: 'center',
-  // background: '#282c34',
-};
-
-const cardStyle = {
-  padding: '1rem',
-  margin: '1rem',
-  border: '1px solid #ddd',
-  borderRadius: '10px',
-  background: '#f9f9f9',
-  textAlign: 'left',
 };
 
 const videoStyle = {
